@@ -9,6 +9,9 @@
     box-sizing: border-box;
 }
 
+
+/* ------------------------------------------------------CUSTOM SCROLLBAR-------------------------------------------------- */
+
 ::-webkit-scrollbar
 {
     width: 10px;
@@ -32,6 +35,9 @@
     cursor: pointer;
 }
 
+
+/* --------------------------------------------------------------------TITLE---------------------------------------------------------- */
+
 p.title
 {
     font-family: 'Ubuntu', sans-serif;
@@ -44,6 +50,9 @@ p.title
     padding-top: 7px;
     padding-bottom: 7px;
 }
+
+
+/* -------------------------------------------------------------HEADER--------------------------------------------------------------- */
 
 header
 {
@@ -130,6 +139,8 @@ header button:hover
     background-color: #1AC1B1;
 }
 
+
+/* -------------------------------------------------ASSISTANT------------------------------------------------------- */
 .help
 {
     position: fixed;
@@ -145,6 +156,9 @@ header button:hover
     border-radius: 50%;
     cursor: pointer;
 }
+
+
+/* ---------------------------------------------------------LANDING SECTION------------------------------------------------------ */
 
 .first_income
 {
@@ -196,6 +210,10 @@ header button:hover
     top: 70px;
 }
 
+
+
+/* ----------------------------------------------------DOWNLOAD----------------------------------------------------------------------- */
+
 .download 
 {
     position: relative;
@@ -243,6 +261,8 @@ header button:hover
     height: 60px;
 }
 
+/* --------------------------------------------------WHY WORK IN YOUR TEENS?------------------------------------------------- */
+
 .why_work
 {
     position: relative;
@@ -272,6 +292,273 @@ header button:hover
     font-size: 17px;
     font-weight: 600;
 }
+
+
+/* -----------------------------------------------------------------NUMBERS------------------------------------------------------- */
+
+svg.numbers
+{
+    position: relative;
+    top: 289px;
+    left: 3px;
+    width: 1274px;
+    border-bottom: 2px solid #fff;
+    margin-left: 40px;
+    transform: scaleY(0.4);
+    background: transparent;
+}
+
+.number-main-container
+{
+    display: flex;
+    height: 170px;
+    padding: 20px;
+    margin: 30px 40px;
+    width: 1280px;
+    border: solid #fff;
+    border-bottom: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: #2E4056;
+}
+
+.containers
+{
+    position: relative;
+    display: flex;
+    padding: 5px;
+    margin: 0 20px;
+    width: 250px;
+    border-radius: 10px;
+    background: transparent;
+}
+
+.containers#first
+{
+    margin-left: 70px;
+}
+
+.containers#third
+{
+    margin-left: -10px;
+}
+
+.containers#forth
+{
+    margin-left: 50px;
+}
+
+.containers .first-icon, .containers .second-icon, .containers .third-icon, .containers .forth-icon
+{
+    position: relative;
+    background: transparent;
+}
+
+.containers  i
+{
+    position: relative;
+    top: 25px;
+    font-size: 50px;
+    color: #000;
+    border-radius: 100%;
+}
+
+.first-icon i
+{
+    padding: 10px 17px;
+    background-color: #FFC0CB;
+}
+
+.second-icon i
+{
+    padding: 10px 15px;
+    background: #CDC0FF;
+}
+
+.third-icon i
+{
+    padding: 10px 8px;
+    background: #C0FCFF;
+}
+
+.forth-icon i
+{
+    padding: 14px 10px;
+    background: #FFF9AA;
+}
+
+.containers .details
+{
+    position: relative;
+    top: 25px;
+    left: 20px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    float: left;
+    background: transparent;
+}
+
+.containers .details h1
+{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background: transparent;
+}
+
+.containers .details h3
+{
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    background: transparent;
+}
+
+
+
+/* -----------------------------------------------------WE ARE TRUSTED BY---------------------------------------------- */
+
+.we_are_trusted_by
+{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.we_are_trusted_by h1.trusted_by
+{
+    position: relative;
+    color: #bbb;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+.we_are_trusted_by p.trusted-by
+{
+    position: relative;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+/* -----------------------------------------COMPANIES - PARTNERS - COMPANIES---------------------------------------------------- */
+.three-c-p-c
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 0 30px;
+    margin-bottom: 30px;
+    background: transparent;
+}
+
+.three-c-p-c .c-p-c
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin: 0 30px;
+    width: 320px;
+    padding: 0 30px;
+    background: transparent;
+}
+
+#first_cpc
+{
+    margin-left: 100px;
+}
+
+.three-c-p-c .c-p-c h1
+{
+    position: relative;
+    bottom: 2px;
+    padding: 10px 10px 10px 0;
+    right: 32.5px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    text-align: center;
+    width: 318.5px;
+    color: #fff;
+}
+
+.three-c-p-c .c-p-c h1.companies
+{
+    background: #834B5B;
+}
+
+.three-c-p-c .c-p-c h1.partners
+{
+    background: #78A34D;
+}
+
+.three-c-p-c .c-p-c h1.company
+{
+    background: #4DA393;
+}
+
+.three-c-p-c .c-p-c img
+{
+    margin: 40px;
+    background: transparent;
+}
+
+svg.companies
+{
+    position: absolute;
+    top: 580px;
+    left: 100px;
+    width: 318px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    opacity: 1;
+    z-index: -1;
+    background: none;
+    transform: scaleY(7);
+}
+
+svg.partners
+{
+    position: absolute;
+    top: 580px;
+    left: 480px;
+    width: 318px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    opacity: 1;
+    z-index: -1;
+    background: none;
+    transform: scaleY(7);
+}
+
+svg.company
+{
+    position: absolute;
+    top: 580px;
+    left: 860px;
+    width: 318px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    opacity: 1;
+    z-index: -1;
+    background: none;
+    transform: scaleY(7);
+}
+/* ----------------------------------------------------FOOTER------------------------------------------------------------------- */
 
 footer
 {
@@ -425,5 +712,24 @@ footer .social_media ul li a i
 
 footer .social_media ul li a i:hover
 {
-    color: #555;
+    color: #fff;
 }
+
+
+/* ---------------------------------------------------------REVEAL------------------------------------------------------ */
+
+.reveal
+{
+    position: relative;
+    transform: scale(50%, 50%);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.reveal.active
+{
+    transform: scale(100%,100%);
+    transition: all 0.5s;
+    opacity: 1;
+}
+
