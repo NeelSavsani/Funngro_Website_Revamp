@@ -416,6 +416,549 @@ svg.numbers
 
 
 
+
+
+
+
+
+/* ---------------------------------------------------PROJECT-CATEGORIES------------------------------------------------ */
+
+svg.project-category
+{
+    position: absolute;
+    top: 1720px;
+    left: 235px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 900px;
+    transform: scaleY(0.1);
+    opacity: 0.7;
+    background: transparent;
+}
+
+.project-categories
+{
+    position: relative;
+    width: 900px;
+    top: 100px;
+    left: 235px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000;
+    border: 2px solid white;
+    background: transparent;
+    text-align: center;
+}
+
+.heading-for-project-categories
+{
+    position: relative;
+    top: 50px;
+    font-size: 50px;
+    color: #fff;
+    height: 130px;
+    margin-bottom: 10px;
+    font-family: 'Poppins',sans-serif;
+    background: transparent;
+}
+
+.details-for-project-categories
+{
+    color: #ccc;
+    font-family: 'Ubuntu', sans-serif;
+    background: transparent;
+}
+
+.line
+{
+    position: absolute;
+    top: 1960px;
+    left: 680px;
+    width: 10px;
+    height: 493.1vh;
+    margin-bottom: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #000;
+}
+
+.right-category
+{
+    position: relative;
+    top: 250px;
+    left: 900px;
+    width: 250px;
+    height: 250px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+.left-category
+{
+    position: relative;
+    top: 240px;
+    left: 208px;
+    width: 250px;
+    height: 250px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+.social-media-marketing, .video-creation, .website-designing, .influencer-marketing, .mobile-app-development, .research-and-survery, .testing, .graphics-design, .content-writing, .voice-over, .data-entry, .campus-embassador
+{
+    background: transparent;
+}
+
+.social-media-marketing p, .video-creation p, .website-designing p, .influencer-marketing p, .mobile-app-development p, .research-and-survery p, .testing p, .graphics-design p, .content-writing p, .voice-over p, .data-entry p, .campus-embassador p
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #1ac1b1;
+    font-size: 25px;
+    background: #000;
+    z-index: 3;
+    opacity: 0;
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 0px #1ac1b1;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.social-media-marketing p span
+{
+    position: relative;
+    top: 80px;
+    background: transparent;
+}
+
+.video-creation p span
+{
+    position: relative;
+    top: 50px;
+    background: transparent;
+}
+
+.website-designing p span
+{
+    position: relative;
+    top: 90px;
+    background: transparent;
+}
+
+.influencer-marketing p span
+{
+    position: relative;
+    top: 50px;
+    background: transparent;
+}
+
+.mobile-app-development p span
+{
+    position: relative;
+    top: 100px;
+    background: transparent;
+}
+
+.research-and-survery p span
+{
+    position: relative;
+    top: 60px;
+    background: transparent;
+}
+
+.testing p span
+{
+    position: relative;
+    top: 40px;
+    background: transparent;
+}
+
+.graphics-design p span
+{
+    position: relative;
+    top: 80px;
+    background: transparent;
+}
+
+.content-writing p span
+{
+    position: relative;
+    top: 70px;
+    background: transparent;
+}
+
+.voice-over p span
+{
+    position: relative;
+    top: 50px;
+    background: transparent;
+}
+
+.data-entry p span
+{
+    position: relative;
+    top: 70px;
+    background: transparent;
+}
+
+.campus-embassador p span
+{
+    position: relative;
+    top: 80px;
+    background: transparent;
+}
+
+.social-media-marketing p:hover, .video-creation p:hover, .website-designing p:hover, .influencer-marketing p:hover, .mobile-app-development p:hover, .research-and-survery p:hover, .testing p:hover, .graphics-design p:hover, .content-writing p:hover, .voice-over p:hover, .data-entry p:hover, .campus-embassador p:hover
+{
+    opacity: 1;
+}
+
+
+.social-media-marketing::before, .website-designing::before, .mobile-app-development::before, .testing::before, .content-writing::before, .data-entry::before
+{
+    content: '';
+    position: absolute;
+    top: 130px;
+    right: 270px;
+    height: 10px;
+    width: 200px;
+    background: #000;
+}
+
+.social-media-marketing::after, .website-designing::after, .mobile-app-development::after, .testing::after, .content-writing::after, .data-entry::after
+{
+    content: '';
+    position: absolute;
+    top: 116px;
+    height: 30px;
+    width: 30px;
+    right: 273px;
+    background: transparent;
+    border-top: 10px solid black;
+    border-right: 10px solid black;
+    transform: rotate(45deg);
+}
+
+.video-creation::before, .influencer-marketing::before, .research-and-survery::before, .graphics-design::before, .voice-over::before, .campus-embassador::before
+{
+    content: '';
+    position: absolute;
+    top: 130px;
+    left: 273px;
+    height: 10px;
+    width: 200px;
+    background: #000;
+}
+
+.video-creation::after, .influencer-marketing::after, .research-and-survery::after, .graphics-design::after, .voice-over::after, .campus-embassador::after
+{
+    content: '';
+    position: absolute;
+    top: 116px;
+    height: 30px;
+    width: 30px;
+    left: 273px;
+    background: transparent;
+    border-top: 10px solid black;
+    border-right: 10px solid black;
+    transform: rotate(225deg);
+}
+
+.right-category .right-icon, .left-category .left-icon
+{
+    position: relative;
+    top: 40px;
+    margin-bottom: 10px;
+    background: transparent;
+}
+
+.right-category .right-icon i, .left-category .left-icon i
+{
+    font-size: 39px;
+    background: transparent;
+}
+
+.right-category .right-heading, .left-category .left-heading
+{
+    position: relative;
+    top: 40px;
+    margin-top: 20px;
+    background: transparent;
+}
+
+.right-category h1.right-heading, .left-category h1.left-heading
+{
+    text-transform: capitalize;
+    background: transparent;
+}
+
+
+/* ------------------------------------------------------FOUR-CATEGORIES------------------------------------- */
+
+.four-container
+{
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+}
+
+#containers
+{
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 320px;
+    cursor: pointer;
+    background: transparent;
+}
+
+#containers:hover
+{
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.first-income
+{
+    border: 1px solid #DEBEBB;
+    color: #DEBEBB;
+}
+
+.passion
+{
+    border: 1px solid #FFEFC1;
+    color: #FFEFC1;
+}
+
+.learning
+{
+    border: 1px solid #b8edfc;
+    color: #b8edfc;
+}
+
+.certification
+{
+    border: 1px solid #DCF8DB;
+    color: #DCF8DB;
+    background: transparent;
+}
+
+.four-icons
+{
+    position: relative;
+    font-size: 40px;
+    margin: 20px;
+    background: transparent;
+}
+
+.four-icons i
+{
+    background: transparent;
+}
+
+#containers h1.heading
+{
+    margin: 10px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    background: transparent;
+}
+
+#containers p.details
+{
+    margin: 10px;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    background: transparent;
+}
+
+
+/* ------------------------------------------------------EARNING-STEPS---------------------------------- */
+
+
+.earning-with-funngro
+{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.earning-with-funngro h1
+{
+    position: relative;
+    margin: 1% 0;
+    font-size: 49px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    background: transparent;
+}
+
+.earning-with-funngro p
+{
+    position: relative;
+    color: #ccc;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.earning-steps
+{
+    position: relative;
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+}
+
+#steps
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 3% 0 3% 2%;
+    margin: 0 0 2% 0;
+}
+
+.earning-steps-icon
+{
+    position: relative;
+    padding: 2% 2.4%;
+    margin-right: 1.7%;
+    background: #39FF33;
+    border-radius: 100%;
+    box-shadow: 0px 0px 1px 5px green;
+}
+
+.earning-steps-icon i
+{
+    font-size: 28px;
+    background: transparent;
+}
+
+div.earning-steps-details
+{
+    position: relative;
+    margin-top: 0.5%;
+}
+
+
+div.earning-steps-details h2
+{
+    position: relative;
+    font-size: 39px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+div.earning-steps-details p
+{
+    position: relative;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ccc;
+}
+
+.earning-steps-icon i::after
+{
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: -13px;
+    width: 100px;
+    height: 100px;
+    padding: 5%;
+    border: 2px dashed white;
+    border-radius: 50%;
+}
+
+/* ------------------------------------------------FUNNGRO AT SHARK------------------------------------------------------- */
+
+.funngro-at-shark
+{
+    position: relative;
+    display: flex;
+    top: 30vh;
+    flex-direction: row;
+}
+
+.funngro-at-shark-left
+{
+    position: relative;
+    padding-top: 2%;
+    margin: 0 2% 0 2%;
+    float: left;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+}
+
+.funngro-at-shark-left h1
+{
+    position: relative;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 39px;
+}
+
+.funngro-at-shark p
+{
+    position: relative;
+    color: #ccc;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
+}
+
+
+.shark-two-containers
+{
+    position: relative;
+    margin-top: 4%;
+    margin-left: 6%;
+}
+
+.shark-container-1, .shark-container-2
+{
+    position: relative;
+    margin-left: -3%;
+    margin-bottom: 2%;
+}
+
+.shark-container-1 img, .shark-container-2 img
+{
+    margin: 0 1%;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.shark-container-1 img:hover, .shark-container-2 img:hover
+{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+
+
 /* -----------------------------------------------------WE ARE TRUSTED BY---------------------------------------------- */
 
 .we_are_trusted_by
@@ -732,4 +1275,3 @@ footer .social_media ul li a i:hover
     transition: all 0.5s;
     opacity: 1;
 }
-
